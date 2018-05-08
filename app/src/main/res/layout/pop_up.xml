@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/txtError"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnmeHeart"
+        android:layout_width="53dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="501dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginRight="321dp"
+        android:layout_x="72dp"
+        android:layout_y="50dp"
+        android:background="@drawable/heartsy" />
+
+    <TextView
+        android:id="@+id/txtError2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnmeHeart"
+        android:layout_alignBottom="@+id/btnmeHeart"
+        android:layout_centerHorizontal="true"
+        android:layout_x="137dp"
+        android:layout_y="71dp" />
+</AbsoluteLayout>
